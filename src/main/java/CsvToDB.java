@@ -5,7 +5,7 @@ public class CsvToDB {
 
     public static void main(String[] args) {
 
-        String jdbcURL = "jdbc:postgresql://192.168.31.111:5432/";
+        String jdbcURL = "jdbc:postgresql://${IP}:5432/";
 
         String username = "postgres";
         String userPassword = "postgres";
